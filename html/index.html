@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!--top form start  -->
+
+    <div class="container">
+        <div class="top-form">
+            <div class="search-form">
+                <div class="inputs">
+                    <input type="text" placeholder="Введите имя" id="inp-name">
+                    <input type="email" placeholder="Введите email" id="inp-email">
+                    <input type="tel" placeholder="Введите номер телефона" id="inp-number">
+                    <input type="src" placeholder="Ссылка на фото" id="inp-link">
+                </div>
+                <div class="btn-form">
+                    <button class="btn-add">Добавить</button>
+                    <button class="btn-clear">Очистить все</button>
+                </div>
+            </div>
+            <div class="photo-form">
+                <img src="../img/photo-img.png" alt="photo" id="photo-link">
+            </div>
+        </div>
+
+        <!-- bootom form start -->
+
+        <div class="bottom-form">
+            <div class="info">
+                <ul class="info-list"></ul>
+            </div>
+        </div>
+    </div>
+
+<!-- modal form -->
+
+<div class="main-modal">
+        <button class="close">Выйти</button>
+        <input type="text" placeholder="Введите имя" id="inp-name1">
+        <input type="text" placeholder="Введите email" id="inp-email1">
+        <input type="text" placeholder="Введите номер телефона" id="inp-number1">
+        <input type="text" placeholder="Ссылка на фото" id="inp-link1">
+        <button class="btn-save">Сохранить изменения</button>
+</div>
+<!-- js sript -->
+
+    <script src="../main.js/main.js"></script>
+</body>
+
+</html>
